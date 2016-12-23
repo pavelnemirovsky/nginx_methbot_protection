@@ -196,7 +196,6 @@ http {
         # Methbot Logging
         access_log /var/log/nginx/methbot_dummy.org_access.log main if=$methbot_match;
 
-        # ROOT location:
         location / {
 
             root   /var/www/html;
