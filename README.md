@@ -8,7 +8,7 @@ and perform logging into access log and then block the access to your ressource 
 
 ### Nginx requirements
 ```
-http://nginx.org/en/docs/http/ngx_http_geo_module.html
+More information can be found here: http://nginx.org/en/docs/http/ngx_http_geo_module.html
 ```
 
 ### Nginx Configuration Example
