@@ -1,7 +1,17 @@
 #**NGINX METHBOT AD FRAUD PROTECTION EXAMPLE**
-
 Example shows how to match IP addreses of "Methbot" ad fraud operation addreses
 and perform logging into access log and then block the access to your ressource by returning HTTP 500.
+
+## Table of Contents
+- [Nginx requirements ](#nginx-requirements)
+- [Nginx Configuration Example](#nginx-conf-example)
+
+### Nginx requirements
+```
+http://nginx.org/en/docs/http/ngx_http_geo_module.html
+```
+
+### Nginx Configuration Example
 
 ```nginx
 user                    nginx;
