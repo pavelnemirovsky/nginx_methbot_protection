@@ -8,11 +8,6 @@ user                    nginx;
 
 events {
     worker_connections  100;
-    # The effective method, used on Linux 2.6+, optmized to serve many clients with each thread.
-    use epoll;
-    # Accept as many connections as possible, after nginx gets notification about a new connection.
-    multi_accept on;
-    accept_mutex_delay  50ms;
 }
 
 http {
