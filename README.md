@@ -4,7 +4,7 @@ and perform logging into access log and then block the access to your ressource 
 
 ## Table of Contents
 - [Nginx Requirements ](#nginx-requirements)
-- [Nginx Configuration Example](#nginx-conf-example)
+- [Nginx Configuration Example](#nginx-configuration-example)
 
 ### Nginx Requirements
 ```
